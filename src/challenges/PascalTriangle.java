@@ -3,6 +3,10 @@ package challenges;
 import java.util.LinkedList;
 import java.util.List;
 
+/*
+    Given an integer numRows, return the first numRows of Pascal's triangle.
+    In Pascal's triangle, each number is the sum of the two numbers directly above it
+ */
 public class PascalTriangle {
 
     public static List<List<Integer>> generate(int numRows) {
@@ -23,9 +27,24 @@ public class PascalTriangle {
         return resultList;
     }
 
+    public static void print(List<List<Integer>> list) {
+        for(int i=0; i<list.size(); i++) {
+            for(int j=0; j<list.size()-i; j++) {
+                System.out.print(" ");
+            }
+
+            for(int j=0; j<list.get(i).size(); j++) {
+                System.out.print(list.get(i).get(j)+ " ");
+            }
+
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         int numRows = 5;
         List<List<Integer>> output = generate(numRows);
+        print(output);
     }
 
 }
