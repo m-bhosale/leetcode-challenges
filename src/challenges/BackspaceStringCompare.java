@@ -1,5 +1,7 @@
 package challenges;
 
+import java.util.Stack;
+
 /*
     Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
     Note that after backspacing an empty text, the text will continue empty.
@@ -7,24 +9,24 @@ package challenges;
 public class BackspaceStringCompare {
 
     public static boolean backspaceCompare(String s, String t) {
-        String str1 = "";
-        for (char ch : s.toCharArray()) {
-            if (ch == '#') {
-                if (str1.length() > 0)
-                    str1 = str1.substring(0, str1.length() - 1);
+        Stack<Character> str1=new Stack<>();
+        Stack<Character> str2=new Stack<>();
 
+        for(char c:s.toCharArray()){
+            if(c == '#') {
+                if( !str1.isEmpty())
+                    str1.pop();
             } else {
-                str1 = str1 + ch;
+                str1.push(c);
             }
         }
 
-        String str2 = "";
-        for (char ch : t.toCharArray()) {
-            if (ch == '#') {
-                if (str2.length() > 0)
-                    str2 = str2.substring(0, str2.length() - 1);
+        for(char c:t.toCharArray()){
+            if(c == '#') {
+                if( !str2.isEmpty())
+                    str2.pop();
             } else {
-                str2 = str2 + ch;
+                str2.push(c);
             }
         }
 
