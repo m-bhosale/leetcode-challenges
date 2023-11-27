@@ -1,4 +1,4 @@
-package challenges;
+package Arrays;
 
 //  Given a 2D integer array matrix, return the transpose of matrix.
 //  The transpose of a matrix is the matrix flipped over its main diagonal,
@@ -15,9 +15,22 @@ public class TransposeMatrix {
         return transpose;
     }
 
+    public static void printMatrix(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        System.out.println("Input : ");
+        printMatrix(matrix);
         int[][] output = transpose(matrix);
+        System.out.println("\nOuput : ");
+        printMatrix(output);
     }
 
 }
