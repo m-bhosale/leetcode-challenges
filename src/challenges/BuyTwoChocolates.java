@@ -27,7 +27,7 @@ public class BuyTwoChocolates {
     public static void main(String[] args) {
         int[] prices = {1, 2, 2};
         int money = 3;
-        int remainingMoney = buyChoco(prices, 3);
+        int remainingMoney = buyChoco(prices, money);
         System.out.println("Remaining money : " + remainingMoney);
     }
 
