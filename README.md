@@ -1,2 +1,27 @@
 # leetcode-challenges
-Gain insights into algorithms and data structures.
+To gain insights into algorithms and data structures.
+
+#### 1. [Check if given strings are equal when both are typed into empty text editors](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/BackspaceStringCompare.java)
+#### 2. [Find the amount of money you will have leftover after buying the two chocolates](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/BuyTwoChocolates.java)
+#### 3. [Check if given strings are Anagram string or not](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/CheckIsAnagramString.java)
+#### 4. [Check if coordinates make a straight line in the XY plane](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/CheckStraightLine.java)
+#### 5. [Count Negative Numbers in a Sorted Matrix](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/CountNegatives.java)
+#### 6. [Find the first non-repeating character in a given string and return its index](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/FindFirstUniqueCharacter.java)
+#### 7. [Find square root of given number](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/FindSqrt.java)
+#### 8. [Find a binary string of length n that does not appear in nums](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/FindUniqueBinaryString.java)
+#### 9. [Find the starting and ending position of a given target value](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/FirstAndLastPositionOfElement.java)
+#### 10. [Check if a string is a palindrom or not](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/IsPalindrome.java)
+#### 11. [Find a substring of num with length 3 consist of only one unique digit](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/Larget3SameDigitNumber.java)
+#### 12. [Lemonade problem, Check if you can provide every customer with the correct change](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/LemonadeChange.java)
+#### 13. [Find all elements that appear more than n/3 times](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/MajorityElementII.java)
+#### 14. [Find the Maximum Product Difference Between Two Pairs](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/MaxProductDifference.java)
+#### 15. [Find the only number in the range that is missing from the array](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/MissingNumber.java)
+#### 16. [Return the smallest character in letters that is lexicographically greater than target character](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/NextGreatestLetter.java)
+#### 17. [Find the number of good pairs](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/NumberOfGoodPairs.java)
+#### 18. [Return the first numRows of Pascal's triangle](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/PascalTriangle.java)
+#### 19. [Check if a given number is a power of four](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/PowerOfFour.java)
+#### 20. [Check if given integer n is a power of three](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/PowerOfThree.java)
+#### 21. [Check if you can make every string in words equal using any number of operations](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/RedistributeCharactersToMakeEqualStrings.java)
+#### 22. [Reverse the order of characters in each word within a sentence](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/ReverseWordsIII.java)
+#### 23. [Move all the even integers at the beginning of the array followed by all the odd integers](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/SortArrayByParity.java)
+#### 24. [Return the transpose of matrix](https://github.com/m-bhosale/leetcode-challenges/blob/main/src/challenges/TransposeMatrix.java)
